@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    min-height: 900px;
+    width: 100%;
+    background-image:linear-gradient(rgba(102, 41, 41, 0.267),rgba(0, 0, 0, 0.911)),url(foto/imgmain4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
